@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Login page Start*/
+
+.login-page{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.login-card{
+    border: none;
+    background: #f8fdf0 ;
+
+
+}
+
+.form-control:focus{
+    box-shadow: none;
+    border:2px solid #59ed77;
+}
+
+.login-button .btn{
+    background: #59ed77;
+    border:1px solid #59ed77;
+
+}
+
+.create-account-button .btn{
+    background: transparent;
+    color: #0b1402;
+    border:1px solid #59ed77;
+
+
+}
+
+.create-account-button .btn:hover{
+    background: #59ed77;
+    color: #FFFFFF;
+   
+
+}
+
+/* Login page Start*/
+
+
+/* Register page Start*/
+.register-page{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.register-card{
+    border: none;
+    background: #f8fdf0 ;
+
+}
+
+
+#formGroupExampleInput{
+    border-radius:1px;
+}
+
+.form-control:focus{
+    box-shadow: none;
+    border:2px solid #59ed77;
+    
+
+}
+.account-button .btn{
+    background: #59ed77;
+    border:1px solid #59ed77;
+
+}
+
+/* Register page End*/
+
+
+/*OTP page Start*/
+body{
+    background: #FFFFFF;
+}
+
+.otp-logo img{
+    background: #59ed77;
+    border-radius: 50%;
+    padding: 15px;
+   
+}
+.card {
+    background: #f8fdf0 ;
+    width: 400px;
+    height:420px ;
+}
+
+.otp-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.otp-heading h5 {
+    font-size: 25px;
+    font-weight: bold;
+    color: #0b1402;
+}
+
+.otp-heading p {
+    font-size: 12px;
+    font-weight: bold;
+    color: #0b1402;
+}
+
+.otp-input input {
+    width: 40px;
+    height: 40px;
+    border-radius: 5px;
+    box-shadow: none;
+    font-weight: bold;
+    text-align: center;
+}
+
+.button a {
+    padding: 10px 60px;
+    background: #59ed77;
+    text-decoration: none;
+    color: #0b1402;
+    border-radius: 1px;
+
+}
+
+.form-control:focus{
+    box-shadow: none;
+    border:2px solid #59ed77; 
+}
+
+/*OTP page End*/
